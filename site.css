@@ -1,0 +1,57 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	width: 1600px;
+	height: 1000px;
+	text-align: center;
+}
+
+#tableIdeasGenetated {
+	border: 1px solid black;
+	border-spacing: 25px;
+	width: 1200px;
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+}
+
+.mainContainer {
+	/*background-color: red;*/
+	width: 1400px;
+	height: 1000px;
+}
+
+.divGenerateButtons {
+	/*background-color: green;*/
+	width: 1200px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+input[type="button"]{
+	margin-left: 10px;
+}
+
+.divMenuTable {
+	/*background-color: yellow;*/
+	width: 1200px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.refreshSoup, .refreshMeat, .refreshCarvery, .refreshFish, .refreshVegetarian, .refreshPotatoes1, .refreshPotatoes2 , .refreshVegetables1, .refreshVegetables2, .refreshVegetables3{
+	width:20px;
+	height: 20px;
+	display: none;
+}
+

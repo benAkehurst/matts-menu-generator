@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Maker</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="veiwport" content="width=devive-width, initial-scale=1">
+	<link rel="stylesheet" href="site.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	
+	<header>
+		
+
+
+	</header>
+
+	<main>
+
+		<div class="mainContainer">
+
+			<div class="divGenerateButtons">
+
+				<input type="button" id="buttonGenerateRandomWeeklyMenu" value="Generate Random Weekly Menu">
+				<input type="button" id="buttonHide" value="Hide Buttons">
+			
+			<!-- End of Buttons Div -->
+			</div>
+
+			<div class="divMenuTable" id="divMenuTable">
+
+				<table id="tableIdeasGenetated">
+					
+				<tr>
+				   <th>Month: <span id="spanMonth"></span></th>
+					  <th>Monday 
+					   	<select>
+						<option>1st</option>
+						<option>2nd</option>
+						<option>3rd</option>
+						<option>4th</option>
+						<option>5th</option>
+						<option>6th</option>
+						<option>7th</option>
+						<option>8th</option>
+						<option>9th</option>
+						<option>10th</option>
+						<option>11th</option>
+						<option>12th</option>
+						<option>13th</option>
+						<option>14th</option>
+						<option>15th</option>
+						<option>16th</option>
+						<option>17th</option>
+						<option>18th</option>
+						<option>19th</option>
+						<option>20th</option>
+						<option>21st</option>
+						<option>22nd</option>
+						<option>23rd</option>
+						<option>24th</option>
+						<option>25th</option>
+						<option>26th</option>
+						<option>27th</option>
+						<option>28th</option>
+						<option>29th</option>
+						<option>30th</option>
+						<option>31st</option>
+						</select>
+					</th>
+				   <th>Tuesday<span id="spanDateTuesday"></span></th>
+				   <th>Wednesday<span id="spanDateWednesday"></span></th>
+				   <th>Thursday<span id="spanDateThursday"></span></th>
+				   <th>Friday<span id="spanDateFriday"></span></th>
+				 </tr>
+
+				  <tr>
+				  	<td id="tdSoup">Soup<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshSoup" class="refreshSoup"></td>
+				  	<td class="deleteable"><span id="soupMonday"></span></td>
+				  	<td class="deleteable"><span id="soupTuesday"></span></td>
+				  	<td class="deleteable"><span id="soupWednesday"></span></td>
+				  	<td class="deleteable"><span id="soupThursday"></span></td>
+				  	<td class="deleteable"><span id="soupFriday"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdMeat">Meat<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshMeat" class="refreshMeat"></td>
+				  	<td class="deleteable"><span id="meatMonday"></span></td>
+				  	<td class="deleteable"><span id="meatTuesday"></span></td>
+				  	<td class="deleteable"><span id="meatWednesday"></span></td>
+				  	<td class="deleteable"><span id="meatThursday"></span></td>
+				  	<td class="deleteable"><span id="meatFriday"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdCarvery">Carvery<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshCarvery" class="refreshCarvery"></td>
+				  	<td>N/A</td>
+				  	<td class="deleteable"><span id="carveryTuesday"></span></td>
+				  	<td class="deleteable"><span id="carveryWednesday"></span></td>
+				  	<td class="deleteable"><span id="carveryThursday"></span></td>
+				  	<td class="deleteable"><span id="carveryFriday"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdFish">Fish<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshFish" class="refreshFish"></td>
+				  	<td class="deleteable"><span id="fishMonday"></span></td>
+				  	<td class="deleteable"><span id="fishTuesday"></span></td>
+				  	<td class="deleteable"><span id="fishWednesday"></span></td>
+				  	<td class="deleteable"><span id="fishThursday"></span></td>
+				  	<td class="deleteable"><span id="fishFriday"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdVegetarian">Vegetarian<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshVegetarian" class="refreshVegetarian"></td>
+				  	<td class="deleteable"><span id="vegetarianMonday"></span></td>
+				  	<td class="deleteable"><span id="vegetarianTuesday"></span></td>
+				  	<td class="deleteable"><span id="vegetarianWednesday"></span></td>
+				  	<td class="deleteable"><span id="vegetarianThursday"></span></td>
+				  	<td class="deleteable"><span id="vegetarianFriday"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdPotatoes1">Potatoes<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshPotatoes1" class="refreshPotatoes1"></td>
+				  	<td class="deleteable"><span id="potatoesMonday1"></span></td>
+				  	<td class="deleteable"><span id="potatoesTuesday1"></span></td>
+				  	<td class="deleteable"><span id="potatoesWednesday1"></span></td>
+				  	<td class="deleteable"><span id="potatoesThursday1"></span></td>
+				  	<td class="deleteable"><span id="potatoesFriday1"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdPotatoes2">Potatoes<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshPotatoes2" class="refreshPotatoes2"></td>
+				  	<td class="deleteable"><span id="potatoesMonday2"></span></td>
+				  	<td class="deleteable"><span id="potatoesTuesday2"></span></td>
+				  	<td class="deleteable"><span id="potatoesWednesday2"></span></td>
+				  	<td class="deleteable"><span id="potatoesThursday2"></span></td>
+				  	<td class="deleteable"><span id="potatoesFriday2"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdVegetables1">Vegetables<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshVegetables1" class="refreshVegetables1"></td>
+				  	<td class="deleteable"><span id="vegetablesMonday1"></span></td>
+				  	<td class="deleteable"><span id="vegetablesTuesday1"></span></td>
+				  	<td class="deleteable"><span id="vegetablesWednesday1"></span></td>
+				  	<td class="deleteable"><span id="vegetablesThursday1"></span></td>
+				  	<td class="deleteable"><span id="vegetablesFriday1"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdVegetables2">Vegetables<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshVegetables2" class="refreshVegetables2"></td>
+				  	<td class="deleteable"><span id="vegetablesMonday2"></span></td>
+				  	<td class="deleteable"><span id="vegetablesTuesday2"></span></td>
+				  	<td class="deleteable"><span id="vegetablesWednesday2"></span></td>
+				  	<td class="deleteable"><span id="vegetablesThursday2"></span></td>
+				  	<td class="deleteable"><span id="vegetablesFriday2"></span></td>
+				  </tr>
+				  <tr>
+				  	<td id="tdVegetables3">Vegetables<img src="assets/images/refresh.png" alt="refreshIcon" id="refreshVegetables3" class="refreshVegetables3"></td>
+				  	<td class="deleteable"><span id="vegetablesMonday3"></span></td>
+				  	<td class="deleteable"><span id="vegetablesTuesday3"></span></td>
+				  	<td class="deleteable"><span id="vegetablesWednesday3"></span></td>
+				  	<td class="deleteable"><span id="vegetablesThursday3"></span></td>
+				  	<td class="deleteable"><span id="vegetablesFriday3"></span></td>
+				  </tr>
+
+				</table>
+			
+			<!-- End Of Table Div -->
+			</div>
+		
+		<!-- End of Main Container Div -->
+		</div>
+
+	</main>
+
+	<footer>
+		
+
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="site.js"></script>
+</body>
+</html>
